@@ -235,9 +235,9 @@
             localStorage.setItem("pixelwolfDoubleShotUnlocked", String(this.progress.doubleShotUnlocked));
             localStorage.setItem("pixelwolfTripleShotUnlocked", String(this.progress.tripleShotUnlocked));
             localStorage.setItem(
-            "pixelwolfAsteroidDestroyerUnlocked",
-            String(this.progress.asteroidDestroyerUnlocked)
-);
+                "pixelwolfAsteroidDestroyerUnlocked",
+                String(this.progress.asteroidDestroyerUnlocked)
+            );
             localStorage.setItem("pixelwolfUnlockedSkins", JSON.stringify(this.progress.unlockedSkins));
             localStorage.setItem("pixelwolfEquippedSkin", this.progress.equippedSkin);
 
